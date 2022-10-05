@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>mountain & cloud with div</title>
+<script src="https://kit.fontawesome.com/ab5d420f2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<style type="text/css">
+body
+{
+    background: #E0FFFF;
+}
+#container
+{
+    float: none;
+    width:100%;
+    height:100px;
+    text-align:center;
+    background: #CCFFFF;
+}
+#div1 {
+    float:left;
+    width:50%;
+    height:auto;
+    text-align:center;
+
+}
+#div1 img {
+    width: 20%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    transition: transform 0.5s;
+}
+#div1 img:hover {
+    transform: scale(1.1);
+}
+#div2 {
+    float:right;
+    width:50%;
+    height:auto;
+    text-align:center;
+
+}
+#div2 img {
+    width: 20%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    transition: transform 0.5s;
+}
+#div2 img:hover {
+    transform: scale(1.1);
+}
+#div3 {
+    float: none;
+    width:100%;
+    height:auto;
+    text-align:center;
+    background-color: #CCFFFF;
+}
+#div3 img {
+    width: 40%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    transition: transform 0.5s;
+}
+#div3 img:hover {
+    transform: scale(1.1);
+}
+#div4 {
+    float: none;
+    width:100%;
+    height:200px;
+    text-align:center;
+    background-color: #99FF99;
+}
+h1
+{
+        border: 2px dashed orange;
+        text-align: center;
+        font-size: 100px;
+        transition: transform 0.5s;
+}
+h1:hover
+{
+    transform: scale(1.1);
+}
+.copyright
+{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i
+{
+    color: #ff004f;
+}
+
+</style>
+
+<div class="container">
+    <h1>mountain & cloud with div</h1>
+    <div id='div1'>
+        <img src="cloud.png" alt="cloud">
+    </div>
+    <div id='div2'>
+        <img src="cloud.png" alt="cloud">
+    </div>
+    <div id='div3'>  
+        <img src="mountain.png" alt="mountain">
+    </div>
+    <div id='div4'></div>
+</div>
+
+<div class="copyright">
+    <p>Copyright @ 130fit. Made for <i class="fa-solid fa-briefcase"></i> Web Development 2022</p>
+</div>
+</body>
